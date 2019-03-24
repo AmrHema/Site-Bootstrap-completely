@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap_Edit.css" rel="stylesheet" />
+    <link href="css/Style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <!-- 1 row -->
+        <div class="row">
+            <!-- 4 products in lg -->
+            <!-- 3 products in md -->
+            <!-- 2 products in sm -->
+            <!-- 1 products in xs -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 1</div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 2</div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hidden-md">
+                <div class="os">Product 3</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 4</div>
+            </div>
+
+        </div>
+        <!-- 2 row -->
+        <div class="row">
+            <!-- 4 products in lg -->
+            <!-- 3 products in md -->
+            <!-- 2 products in sm -->
+            <!-- 1 products in xs -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 5</div>
+            </div>
+            <!-- clearfix -->
+            <div class="clearfix visible-lg-block"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 6</div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hidden-md">
+                <div class="os">Product 7</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 8</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 9</div>
+            </div>
+        </div>
+        <!-- 3 row  offset - push   pull-->
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-3">
+                <!--depends of margin-left -->
+
+                <div class="os">
+                    offset depends of margin-left
+                </div>
+            </div>
+            <!-- clearfix -->
+            <div class="clearfix"></div>
+            <div class="col-lg-3 col-lg-push-3">
+                <div class="os">
+                    2   push  depends of push to left
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-pull-3">
+                <div class="os">
+                    3  pull depends of  pull at Right
+                </div>
+            </div>
+        </div>
+        <!-- Nested Column Rows -->
+        <!-- 4 row -->
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="big">
+                    <div class="row">
+                        <div class=" col-md-3 col-xs-12"><img   class="img-responsive center-block" src="images/bootstrap.png"/></div>
+                        <div class=" col-md-9 col-xs-12"><p class="lead">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 2</div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hidden-md">
+                <div class="os">Product 3</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="os">Product 4</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
